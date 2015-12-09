@@ -1,4 +1,4 @@
-package com.nextmining.course.analysis.collector.blog;
+package com.nextmining.course.collector.blog;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;

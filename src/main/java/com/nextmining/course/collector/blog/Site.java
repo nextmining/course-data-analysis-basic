@@ -1,4 +1,4 @@
-package com.nextmining.course.analysis.collector.blog;
+package com.nextmining.course.collector.blog;
 
 import java.util.*;
 
