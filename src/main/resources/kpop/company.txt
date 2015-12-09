@@ -1,0 +1,23 @@
+#id	name	name_en	category	parent_company	named_entity_pattern	filter_pattern	twitter_collect_query	youtube_account_collect_yn	twitter_account_collect_yn	twitter_account_mention_collect_yn	youtube_account	twitter_account	facebook_account	googleplus_account	me2day_account	use_yn	register_date	update_date
+sment	SM 엔터테인먼트	SM Entertainment	music, drama		SM[\s]*([Tt][Oo][Ww][Nn]|<t:company_en_surfix_ent>)		smtown, sm town, sment, sm ent, smentertainment, sm entertainment	1			SMTOWN, sment		smtown			1		
+ygent	YG 엔터테인먼트	YG Entertainment	music, drama		YG[\s]*([Ff][Aa][Mm][Ii][Ll][Yy]|<t:company_en_surfix_ent>)		ygfamily, yg family, ygent, yg ent, ygentertainment, yg entertainment	1	1	1	YGEntertainment	ygent_official	ygfamily		ygonair	1		
+jypent	JYP 엔터테인먼트	JYP Entertainment	music		JYP[\s]*(<t:company_en_surfix_ent>), \bJYP\b		jypent, jyp ent, jypentertainment, jyp entertainment	1	1	1	jypentertainment	jypeofficial	jypcorp, jypaudition			1		
+aqent	AQ 엔터테인먼트	AQ Entertainment	music	jypent	AQ[\s]*(<t:company_en_surfix_ent>)		aqent, aq ent, aqentertainment, aq entertainment		1	1		aqeofficial				1		
+bighitent	빅히트 엔터테인먼트	BigHit Entertainment	music	jypent	B[Ii][Gg][\s]*[Hh][Ii][Tt][\s]*(<t:company_en_surfix_ent>)		bighitent, bighit ent, bighitentertainment, bighit entertainment	1	1	1	ibighit	BigHitEnt	ibighit		bighitent	1		
+dspmedia	DSP 미디어	DSP Media	music		DSP[\s]*<t:company_en_surfix_media>		dspmedia, dsp media	1			dsp					1		
+woolliment	울림 엔터테인먼트	Woollim Entertainment	music		W[Oo][Oo][Ll][Ll][Ii][Mm][\s]*(<t:company_en_surfix_ent>)		woolliment, woollim ent, woollimentertainment, woollim entertainment	1			woolliment					1		
+cubeent	큐브 엔터테인먼트	CUBE Entertainment	music		C[Uu][Bb][Ee][\s]*(<t:company_en_surfix_ent>)		cubeent, cube ent, cubeentertainment, cube entertainment		1	1		cubeunited	CUBEUNITED			1		
+topmedia	TOP 미디어	TOP Media	music		T[Oo][Pp][\s]*<t:company_en_surfix_media>		topmedia, top media	1	1		TOPmediaStar	TOPmedia_Kr				1		
+nhmedia	NH미디어	NH Media	music		NH[\s]*<t:company_en_surfix_media>		nhmedia, nh media									1		
+shinhwacompany	신화컴퍼니	SHINWHA COMPANY	music		S[Hh][Ii][Nn][Hh][Ww][Aa][\s]*[Cc][Oo][Mm][Pp][Aa][Nn][Yy]		shinhwacomapny, shinhwa company	1	1	1	SHINHWACOMPANY	shinhwacompany	shinhwacompany			1		
+fncent	FNC 엔터테인먼트	FNC Entertainment	music		FNC[\s]*(<t:company_en_surfix_ent>)		fncent, fnc ent, fncentertainment, fnc entertainment									1		
+acubeent	ACUBE 엔터테인먼트	ACUBE Entertainment	music		A[Cc][Uu][Bb][Ee][\s]*(<t:company_en_surfix_ent>)		acubeent, kpop AND acube ent, acubeentertainment, acube entertainment									1		
+wment	WM 엔터테인먼트	WM Entertainment	music		WM[\s]*(<t:company_en_surfix_ent>)		wment, wm ent, wmentertainment, wm entertainment									1		
+starshipent	스타쉽 엔터테인먼트	Starship Entertainment	music		S[Tt][Aa][Rr][Ss][Hh][Ii][Pp][\s]*(<t:company_en_surfix_ent>)		starshipent, starshipentertainment, starship entertainment	1			starshipTV					1		
+keyeast	키이스트	KEYEAST	drama, music		K[Ee][Yy][Ee][Aa][Ss][Tt]		keyeast						keyeastofficial			1		
+jtunecamp	제이튠캠프	JTUNE CAMP	music		J[.]*[Tt][Uu][Nn][Ee][\s]*[Cc][Aa][Mm][Pp]		jtunecamp		1	1		JTune_official				1		
+tsent	TS 엔터테인먼트	TS Entertainment	music		TS[\s]*(<t:company_en_surfix_ent>)		tsenter, kpop AND ts ent, tsentertainment, ts entertainment		1	1		TS_Enter				1		
+pledis	플레디스	Pledis	music		P[Ll][Ee][Dd][Ii][Ss]		pledis									1		
+loenent	로엔 엔터테인먼트	LOEN Entertainment	music		L[Oo][Ee][Nn][\s]*(<t:company_en_surfix_ent>)		loenent, loen ent, loenentertainment, loen entertainment	1	1	1	loenent, loenartist	loen_artist				1		
+ccment	코어콘텐츠미디어	CCM Entertainment	music		(CCM|C[Oo][Rr][Ee][\s]*C[Oo][Nn][Tt][Ee][Nn][Tt][Ss][\s]*<t:company_en_surfix_media>)[\s]*(<t:company_en_surfix_ent>), C[Oo][Rr][Ee][\s]*C[Oo][Nn][Tt][Ee][Nn][Tt][Ss][\s]*<t:company_en_surfix_media>		ccment, ccm ent, corecontentsmedia, ccmentertainment, ccm entertainment	1	1	1	coremidas	coremidas	corecontents			1		
+cjesent	씨제스엔터테인먼트	CJeS Entertainment	music		C[-]*[Jj][Ee][Ss][\s]*(<t:company_en_surfix_ent>)		cjesent, cjes ent, cjesentertainment, cjes entertainment	1			cjesent					1		

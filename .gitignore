@@ -20,3 +20,4 @@
 .DS_Store
 
 /data
+/src/main/resources/twitter4j.properties

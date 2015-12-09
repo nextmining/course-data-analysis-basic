@@ -1,0 +1,274 @@
+#id	name_ko	lastname_ko	firstname_ko	realname_ko	name_en	lastname_en	firstname1_en	firstname2_en	name_ja	lastname_ja	firstname_ja	category	type	job	affiliated_group	company	debut	named_entity_pattern	filter_pattern	twitter_collect_query	youtube_account_collect_yn	twitter_account_collect_yn	twitter_account_mention_collect_yn	youtube_account	twitter_account	facebook_account	googleplus_account	me2day_account	use_yn	register_date	update_date
+bigbang	빅뱅				BIGBANG							music	group	singer		ygent	20060829	[Bb][Ii][Gg][\s]*[Bb][Aa][Nn][Gg]		bigbang, big bang	1			BIGBANG					1		
+gd_and_top	GD&TOP				GD&TOP							music	group	singer		ygent	20101224	<t:artist_en_name>		gd&top, gd & top									1		
+bb_gdragon	G-드래곤			권지용	G-Dragon							music	person	singer	bigbang, gd_and_top	ygent	20060829	<t:artist_en_name_firstUpper>										g-dragon	1		
+bb_taeyang	태양			동영배	Taeyang		TAE	YANG				music	person	singer	bigbang	ygent	20060829	<t:artist_en_firstname_firstUpper>, \bSOL\b			1	1	1	ygtaeyang	Realtaeyang	TAEYANG		solofbb	1		
+bb_top	T.O.P			최승현	T.O.P							music	person	singer	bigbang, gd_and_top	ygent	20060829	<t:artist_en_name_allUpper>										topofbb	1		
+bb_daesung	대성			강대성	Daesung		DAE	SUNG				music	person	singer	bigbang	ygent	20060829	<t:artist_en_firstname_firstUpper>, \bD-[Ll][Ii][Tt][Ee]\b										bbdaesung	1		
+bb_seungri	승리			이승현	Seungri		SEUNG	RI				music	person	singer	bigbang	ygent	20060829	<t:artist_en_firstname_firstUpper>, \bV\.I\b										viofbb	1		
+2ne1	투애니원				2NE1							music	group	singer		ygent	20090327	<t:artist_en_name>		2ne1	1			2ne1		2NE1			1		
+cl_and_minzy	CL&MINZY				CL&MINZY							music	group	singer		ygent	20091120	<t:artist_en_name_firstUpper>		cl&minzy, cl & minzy									1		
+2ne1_minzy	공민지	공	민지		Minzy	KONG	MIN	ZY				music	person	singer	2ne1, cl_and_minzy	ygent	20090327	<t:artist_en_optional_fullname_firstUpper>										21minzy	1		
+2ne1_cl	씨엘			이채린	CL							music	person	singer	2ne1, cl_and_minzy	ygent	20090327	<t:artist_en_name_allUpper>											1		
+2ne1_parksandara	산다라	박	산다라	박산다라	Sandara	PARK	SANDARA					music	person	singer	2ne1	ygent	20090327	\b(P[Aa][Rr][Kk][\s\.]*)*S[Aa][Nn][Dd][Rr][Aa][\s\.]*(P[Aa][Rr][Kk])*\b										21dara	1		
+2ne1_parkbom	박봄	박	봄		Park Bom	PARK	BOM					music	person	singer	2ne1	ygent	20090327	\b(P[Aa][Rr][Kk][\s\.]*)*B[Oo][Mm]\b				1	1		haroobomkum			21bom	1		
+psy	싸이			박재상	PSY							music	person	singer		ygent	20010108	<t:artist_en_name_firstUpper>		yg AND psy	1			officialpsy		officialpsy		psyfive	1		
+se7en	쎄븐			최동욱	SE7EN							music	person	singer		ygent	20030308	<t:artist_en_name_firstUpper>		yg AND se7en	1	1	1	officialse7en	se7enyg			se7enyg	1		
+gummy	거미			박지연	Gummy							music	person	singer		ygent	200302	<t:artist_en_name_firstUpper>		yg AND gummy								030201	1		
+tablo	타블로			이선웅	Tablo							music	person	singer		ygent	20031023	<t:artist_en_name_firstUpper>		tablo	1	1	1	ygtablo	blobyblo	ygtablo			1		
+snsd	소녀시대				Girls' Generation							music	group	singer		sment	20070805	\bSNSD\b, \bG[Ii][Rr][Ll][Ss]['-]*[Gg][Ee][Nn][Ee][Rr][Aa][Tt][Ii][Oo][Nn]\b, 少女時代		girlsgeneration, girls generation, snsd, 少女時代						girlsgeneration			1		
+taetiseo	태티서				Girls' Generation-TTS							music	group	singer		sment	20120503	\bTTS\b, \bT[Aa][Ee][Tt][Ii][Ss][Ee][Oo]\b, \bG[Ii][Rr][Ll][Ss]['-]*[Gg][Ee][Nn][Ee][Rr][Aa][Tt][Ii][Oo][Nn][-\s]*[Tt][Tt][Ss]\b		girlsgeneration tts, taetiseo, girls generation-tts									1		
+snsd_yoona	윤아			임윤아	Yoona		YOON	A	ユナ			music, drama	person	singer, actor	snsd	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+snsd_sooyoung	수영			최수영	Sooyoung		SOO	YOUNG	スヨン			music	person	singer	snsd	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+snsd_hyoyeon	효연			김효연	Hyoyeon		HYO	YEON	ヒョヨン			music	person	singer	snsd	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+snsd_yuri	유리			권유리	Yuri		YU	RI	ユリ			music, drama	person	singer, actor	snsd	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+snsd_taeyeon	태연			김태연	Taeyeon		TAE	YEON	テヨン			music	person	singer	snsd, taetiseo	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+snsd_jessica	제시카			정수연	Jessica		JESSICA		ジェシカ			music, drama	person	singer, actor	snsd	sment	20070805	<t:artist_en_name_firstUpper>, <t:artist_ja_name>											1		
+snsd_tiffany	티파니			스테파니 황	Tiffany		TIFFANY		ティファニー			music	person	singer	snsd, taetiseo	sment	20070805	<t:artist_en_name_firstUpper>, <t:artist_ja_name>											1		
+snsd_sunny	써니			이순규	Sunny		SUNNY		サニー			music	person	singer	snsd	sment	20070805	<t:artist_en_name_firstUpper>, <t:artist_ja_name>											1		
+snsd_seohyun	서현			서주현	Seohyun		SEO	HYUN	ソヒョン			music, drama	person	singer, actor	snsd, taetiseo	sment	20070805	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+superjunior	슈퍼쥬니어				Super Junior							music	group	singer		sment	20051106	<t:artist_en_name_firstUpper>		superjunior, super junior						superjunior			1		
+donghae_and_eunhyuk	동해&은혁				DONGHAE&EUNHYUK							music	group	singer		sment	20111216	<t:artist_en_name>		donghae&eunhyuk, donghae & eunhyuk									1		
+suju_leeteuk	이특			박정수	Leeteuk		LEE	TEUK	イトゥク			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		special1004				1		
+suju_heechul	희철	김	희철	김희철	Heechul	KIM	HEE	CHUL	ヒチョル			music,drama	person	singer, actor	superjunior	sment	20051106	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		Heedictator				1		
+suju_yesung	예성			김종운	Yesung		YE	SUNG	イェソン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		shfly3424				1		
+suju_kangin	강인			김영운	Kangin		KANG	IN	カンイン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+suju_shindong	신동			신동희	Shindong		SHIN	DONG	シンドン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		ShinsFriends			siasiagay	1		
+suju_sungmin	성민			이성민	Sungmin		SUNG	MIN	ソンミン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+suju_eunhyuk	은혁			이혁재	Eunhyuk		EUN	HYUK	ウニョク			music	person	singer	superjunior, donghae_and_eunhyuk	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		AllRiseSilver				1		
+suju_donghae	동해			이동해	Donghae		DONG	HAE	ドンヘ			music	person	singer	superjunior, donghae_and_eunhyuk	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		donghae861015				1		
+suju_siwon	시원			최시원	Siwon		SI	WON	シウォン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		siwon407				1		
+suju_ryeowook	려욱			김려욱	Ryeowook		RYEO	WOOK	リョウク			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		ryeong9				1		
+suju_gibum	기범			김기범	Gibum		GI	BUM	キボム			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		ikmubmik				1		
+suju_kyuhyun	규현			조규현	Kyuhyun		KYU	HYUN	キュヒョン			music	person	singer	superjunior, smtheballad	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+suju_hangeng	한경			韓庚	Hangeng		HAN	GENG	ハンギョン			music	person	singer	superjunior	sment	20051106	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>, 韓庚											1		
+tvxq	TVXQ			동방신기	TVXQ				東方神起			music	group	singer		sment	20031226	<t:artist_en_name_firstUpper>, <t:artist_ja_name>		tvxq, 東方神起									1		
+jyj	JYJ				JYJ							music	group	singer		cjesent	20101223	<t:artist_en_name_allUpper>		jyj						CJESJYJ			1		
+tvxq_uknowyoonho	유노윤호	유노	윤호	정윤호	U-Know	UKNOW	YOON	HO				music	person	singer	tvxq	sment	20031226	\bU[-]*K[Nn][Oo][Ww]\b, <t:artist_en_optional_fullname_firstUpper>											1		
+tvxq_choigangchangmin	최강창민	최강	창민	심창민	Max	CHOIGANG	CHANG	MIN				music	person	singer	tvxq	sment	20031226	<t:artist_en_optional_fullname_firstUpper>											1		
+jyj_herojaejoong	김재중	김	재중	김재중	Kim Jae Joong	KIM	JAE	JOONG	ジェジュン			music	person	singer	jyj	sment	20031226	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		mjjeje				1		
+jyj_mickyyouchon	박유천	박	유천	박유천	Park You Chon	PARK	YOU	CHON	ユチョン			music	person	singer	jyj	sment	20031226	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		6002theMicky				1		
+jyj_xiahjunsoo	김준수	김	준수	김준수	Kim Jun Soo	KIM	JUN	SOO	ジュンス			music	person	singer	jyj	sment	20031226	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		1215thexiahtic				1		
+trax	트랙스				TRAX							music	group	singer		sment	20040717	<t:artist_en_name_allUpper>		sm AND trax, jay AND trax, jungmo AND trax									1		
+trax_jay	제이			김영덕	Jay							music	person	singer	trax, smtheballad	sment	20040717	<t:artist_en_name_firstUpper>											1		
+trax_jungmo	정모			김정모	Jungmo		JUNG	MO				music	person	singer	trax	sment	20040717	<t:artist_en_firstname_firstUpper>											1		
+thegrace	천상지희 더 그레이스				The Grace				天上智喜			music	group	singer		sment	20050430	\bT[Hh][Ee][\s]*G[Rr][Aa][Cc][Ee]\b, 天上智喜		thegrace, the grace, 天上智喜									1		
+thegrace_dana_and_sunday	천상지희 다나&선데이				The Grace Dana&Sunday							music	group	singer		sment	20110708	\bT[Hh][Ee][\s]*[Gg][Rr][Aa][Cc][Ee][\s]*[Dd][Aa][Nn][Aa][\s]*&[\s]*[Ss][Uu][Nn][Dd][Aa][Yy]\b, D[Aa][Nn][Aa][\s]*&[\s]*[Ss][Uu][Nn][Dd][Aa][Yy]\b		thegracedanasunday, the grace dana&sunday, dana&sunday, dana & sunday									1		
+thegrace_stephanie	스테파니			김보경	Stephanie							music	person	singer	thegrace	sment	20050430	<t:artist_en_name_firstUpper>				1	1		stephk1016				1		
+thegrace_lina	린아			이지연	Lina							music	person	singer	thegrace	sment	20050430	<t:artist_en_name_firstUpper>											1		
+thegrace_dana	다나			홍성미	Dana							music	person	singer	thegrace, thegrace_dana_and_Sunday	sment	20050430	<t:artist_en_name_firstUpper>				1	1		melodana				1		
+thegrace_sunday	선데이			진서윤	Sunday							music	person	singer	thegrace, thegrace_dana_and_sundayb	sment	20050430	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		sunday040728				1		
+shinee	샤이니				SHINee							music	group	singer		sment	20080525	<t:artist_en_name_firstUpper>		shinee						shinee		shineeshinee	1		
+shinee_onew	온유			이진기	Onew							music	person	singer	shinee	sment	20080525	<t:artist_en_name_firstUpper>										shinee_onew	1		
+shinee_jonghyun	종현			김종현	Jonghyun		JONG	HYUN				music	person	singer	shinee, smtheballad	sment	20080525	<t:artist_en_firstname_firstUpper>				1	1		realjonghyun90				1		
+shinee_key	키			김기범	Key							music	person	singer	shinee	sment	20080525	<t:artist_en_name_firstUpper>	<t:artist_filter>										1		
+shinee_minho	민호			최민호	Minho		MIN	HO				music	person	singer	shinee	sment	20080525	<t:artist_en_firstname_firstUpper>											1		
+shinee_taemin	태민			이태민	Taemin		TAE	MIN				music	person	singer	shinee	sment	20080525	<t:artist_en_firstname_firstUpper>											1		
+fx	에프엑스			에프엑스	f(x)							music	group	singer		sment	20090905	<t:artist_en_name>		sm AND f(x), victoria AND f(x), amber AND f(x), lunna AND f(x), sulli AND f(x), krystal AND f(x)						fx.smtown			1		
+fx_victoria	빅토리아				Victoria				ビクトリア			music	person	singer	fx	sment	20090905	<t:artist_en_name_firstUpper>, <t:artist_ja_name>										fx_victoria	1		
+fx_amber	엠버				Amber				アンバー			music	person	singer	fx	sment	20090905	<t:artist_en_name_firstUpper>, <t:artist_ja_name>										fx_amber	1		
+fx_lunna	루나				Lunna				ルナ			music	person	singer	fx	sment	20090905	<t:artist_en_name_firstUpper>, <t:artist_ja_name>										fx_luna	1		
+fx_sulli	설리			최진리	Sulli				ソルリ			music	person	singer	fx	sment	20090905	<t:artist_en_name_firstUpper>, <t:artist_ja_name>										fx_sulli	1		
+fx_krystal	크리스탈			정수정	Krystal				クリスタル			music	person	singer	fx	sment	20090905	<t:artist_en_name_firstUpper>, <t:artist_ja_name>										fx_krystal	1		
+smtheballad	S.M. The Ballad			에스엠 더 발라드	S.M. The Ballad							music	group	singer		sment	20101128	<t:artist_en_name_firstUpper>		smtheballad, s.m. the ballad									1		
+smtheballad_jino	지노				Jino							music	person	singer	smtheballad	sment	20101120	<t:artist_en_name_firstUpper>											1		
+exok	EXO-K				EXO-K							music	group	singer		sment	20120408	\b[Ee][Xx][Oo]-[Kk]\b		sm AND exo-k, sm AND exok						exok			1		
+exok_suho	수호				Suho		SU	HO				music	person	singer	exok	sment	20120408	<t:artist_en_firstname_firstUpper>											1		
+exok_baekhyun	백현				Baekhyun		BAEK	HYUN				music	person	singer	exok	sment	20120408	<t:artist_en_firstname_firstUpper>											1		
+exok_chanyeol	찬열				Chanyeol		CHAN	YEOL				music	person	singer	exok	sment	20120408	<t:artist_en_firstname_firstUpper>											1		
+exok_do	디오				DO							music	person	singer	exok	sment	20120408	\bD[\.]O[\.]\b											1		
+exok_kai	카이				Kai							music	person	singer	exok	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exok_sehun	세훈				Sehun		SE	HUN				music	person	singer	exok	sment	20120408	<t:artist_en_firstname_firstUpper>											1		
+exom	EXO-M				EXO-M							music	group	singer		sment	20120408	\b[Ee][Xx][Oo]-[Mm]\b		sm AND exo-m, sm AND exom						exom			1		
+exom_xiumin	시우민				Xiumin							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exom_luhan	루한				Luhan							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exom_kris	크리스				Kris							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exom_lay	레이				Lay							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exom_chen	첸				Chen							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+exom_tao	타오				Tao							music	person	singer	exom	sment	20120408	<t:artist_en_name_firstUpper>											1		
+boa	보아			권보아	BoA							music	person	singer		sment	20000827	<t:artist_en_name_firstUpper>		sm AND boa		1	1		boakwon				1		
+kangta	강타			안칠현	Kangta							music	person	singer		sment	19960907	<t:artist_en_name_firstUpper>		kangta		1	1		kangta_ktvckt			kangta_ktvckt	1		
+zhangliyin	장리인				Zhang Li Yin	ZHANG	LI	YIN	張力尹			music	person	singer		sment	20060909	<t:artist_en_fullname_firstUpper>, 張力尹		zhangliyin, zhang li yin, 張力尹									1		
+wondergirls	원더걸스				Wonder Girls							music	group	singer		jypent	200702	<t:artist_en_name_firstUpper>		wondergirls	1	1	1	wondergirls	wondergirls	wondergirlsworld			1		
+wg_seonye	선예			민선예	Seonye		SEON	YE	ソネ			music	person	singer	wondergirls	jypent	200702	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		WGsun			wgseonye	1		
+wg_sohee	소희			안소희	Sohee		SO	HEE	ソヒ			music	person	singer	wondergirls	jypent	200702	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		WGsohee			wgsohee4	1		
+wg_yenny	예은			박예은	Yenny				イェウン			music	person	singer	wondergirls	jypent	200702	<t:artist_en_name_firstUpper>, <t:artist_ja_name>				1	1		WGyenny			wgyenny	1		
+wg_yubin	유빈			김유빈	Yubin		YU	BIN	ユビン			music	person	singer	wondergirls	jypent	200702	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		WGyubin			_yubin_	1		
+wg_lim	혜림			우혜림	Lim				ヘリム			music	person	singer	wondergirls	jypent	200702	<t:artist_en_name_firstUpper>, <t:artist_ja_name>	<t:artist_filter>			1	1		WG_Lim			wg_lim	1		
+2pm	2PM				2PM							music	group	singer		jypent	200808	<t:artist_en_name_allUpper>		jyp AND 2pm, chansung AND 2pm, junsu AND 2pm, junho AND 2pm, nichkhun AND 2pm, taecyeon AND 2pm, wooyoung AND 2pm	1			2pm					1		
+2pm_chansung	찬성			황찬성	Chansung		CHAN	SUNG	テギョン			music	person	singer	2pm	jypent	200808	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		2PMagreement211			chansung2004	1		
+2pm_junsu	준수			김준수	Junsu		SUN	SU	ジュンス			music	person	singer	2pm	jypent	200808	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		Jun2daKAY			jun2thekay	1		
+2pm_junho	준호			이준호	Junho		JUN	HO	ジュノ			music	person	singer	2pm	jypent	200808	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		dlwnsghek			thedlwnsghek	1		
+2pm_nichkhun	닉쿤			Nichkhun Buck Horvejkul	Nichkhun				ニックン			music	person	singer	2pm	jypent	200808	<t:artist_en_name_firstUpper>, <t:artist_ja_name>				1	1		Khunnie0624			khunnie1004	1		
+2pm_taecyeon	택연			옥택연	Taecyeon		TAEC	YEON	テギョン			music	person	singer	2pm	jypent	200808	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		taeccool			taeccool1227	1		
+2pm_wooyoung	우영			장우영	Wooyoung		WOO	YOUNG	ウヨン			music	person	singer	2pm	jypent	200808	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		0430yes			0430yes	1		
+2am	2AM				2AM							music	group	singer		jypent, bighitent	200807	<t:artist_en_name_allUpper>		jyp AND 2am, jokwon AND 2am, seulong AND 2am, chanmin AND 2am, jinwoon AND 2am	1			2am		2am.jype			1		
+2am_jokwon	조권			조권	Jokwon							music	person	singer	2am	jypent, bighitent	200807	<t:artist_en_name_firstUpper>				1	1		2AMkwon			whrnjs486	1		
+2am_limseulong	슬옹			임슬옹	Seulong		SEUL	ONG				music	person	singer	2am	jypent, bighitent	200807	<t:artist_en_firstname_firstUpper>				1	1		2AMONG			adsltex	1		
+2am_leechangmin	창민			이창민	Changmin		CHANG	MIN				music	person	singer	2am	jypent, bighitent	200807	<t:artist_en_firstname_firstUpper>				1	1		2AMCHANGMIN			2amchangmin	1		
+2am_jeongjinwoon	진운			정진운	Jinwoon		JIN	WOON				music	person	singer	2am	jypent, bighitent	200807	<t:artist_en_firstname_firstUpper>				1	1		2AMjinwoon			jinwoon52	1		
+joo	JOO			정민주	JOO							music	person	singer		jypent	200801	<t:artist_en_name_allUpper>		jyp AND joo	1	1	1	joojype 	JOOJYPE			joojype	1		
+sane	San E			정산	San E							music	person	singer		jypent	201009	\S[Aa][Nn][\s\.-]*E\b		san e, san-e	1	1	1	sane	san_e			mountain_boi	1		
+limjeonghee	임정희	임	정희		Lim Jeong Hee	LIM	JEONG	HEE				music	person	singer		jypent, bighitent	2005	<t:artist_en_fullname>		limjeonghee, lim jeong hee		1	1		welcomtomaworld			street_diva	1		
+kimsoyoung	김소영	김	소영		Kim So Young	KIM	SO	YOUNG				music	person	singer		jypent	2009	<t:artist_en_fullname>		kimsoyoung, kim so young									1		
+jjproject	JJ Project				JJ Project							music	group	singer		jypent	201205	\bJJ[\s\.-]*[Pp][Rr][Oo][Jj][Ee][Cc][Tt]\b		jjproject, jj project	1	1	1	jjprojectofficial	JJProject	JJProjectOfficial			1		
+jj_jb	JB			임재범	JB							music	person	singer	jjproject	jypent	201205	\bJB\b	<t:artist_filter>			1	1		jbjyp			jbjyp	1		
+jj_jr	Jr.			박진영	Jr.							music	person	singer	jjproject	jypent	201205	\bJr\.\b	<t:artist_filter>			1	1		jrjyp			jrjyp	1		
+missa	미쓰에이				miss A							music	group	singer		jypent, aqent	201007	\b[Mm][Ii][Ss][Ss][\s-]*A\b		missa, jyp AND miss a, aq AND miss a, jia AND miss a, min AND miss a, suzy AND miss a, fei AND miss a	1			missA		saymissA			1		
+missa_jia	지아				Jia							music	person	singer	missa	jypent, aqent	201007	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		missA_jia			jiabymissa	1		
+missa_min	민			이민영	Min							music	person	singer	missa	jypent, aqent	201007	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		missA_min			minbymissa	1		
+missa_suzy	수지			배수지	Suzy							music	person	singer	missa	jypent, aqent	201007	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		missA_suzy			suzybymissa	1		
+missa_fei	페이				Fei							music	person	singer	missa	jypent, aqent	201007	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		missA_fei			feibymissa	1		
+infinite	인피니트			INFINITE	INFINITE							music	group	singer		woolliment	201202	<t:artist_en_name_allUpper>		woollim AND infinite, sungkyu AND infinite dongwoo AND infinite, woohyun AND infinite, hoya AND infinite, sungyeol AND infinite, l AND infinite, sungjong AND infinite	1			infinitehome			1.08268E+20		1		
+infinite_sungkyu	김성규	김	성규		Sungkyu	KIM	SUNG	KYU	ソンギュ			music	person	singer	infinite	woolliment	201202	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+infinite_dongwoo	장동우	장	동우		Dongwoo	JANG	DONG	WOO	ドンウ			music	person	singer	infinite	woolliment	201202	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+infinite_woohyun	남우현	남	우현		Woohyun	NAM	WOO	HYUN	ウヒョン			music	person	singer	infinite	woolliment	201202	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+infinite_hoya	호야			이호원	Hoya		HO	YA	ホヤ			music	person	singer	infinite	woolliment	201202	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+infinite_sungyeol	이성열	이	성열		Sungyeol	LEE	SUNG	YEOL	ソンヨル			music	person	singer	infinite	woolliment	201202	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+infinite_l	엘			김명수	L							music	person	singer	infinite	woolliment	201202	\bL\b	<t:artist_filter>									infinite_69	1		
+infinite_sungjong	이성종	이	성종		Sungjong	LEE	SUNG	JONG	ソンジョン			music	person	singer	infinite	woolliment	201202	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+tara	티아라			TARA	T-ara							music	group	singer		ccment	2009	<t:artist_en_name_firstUpper>		t-ara, tara									1		
+tara_jiyeon	지연	박	지연	박지연	Jiyeon	PARK	JI	YEON	ジヨン			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		pjy1234				1		
+tara_eunjung	은정	함	은정	함은정	Eunjung	HAM	EUN	JUNG	ウンジョン			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		taraeunjung1212				1		
+tara_boram	보람	전	보람	전보람	Boram	JEON	BO	RAM	ボラム			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>											1		
+tara_soyeon	소연	박	소연	박소연	Soyeon	PARK	SO	YEON	ソヨン			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		sohotmelody				1		
+tara_hyomin	효민			박선영	Hyomin		HYO	MIN	ヒョミン			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		b89530				1		
+tara_qri	큐리			이지현	Qri				キュリ			music, drama	person	singer, drama	tara	ccment	2009	<t:artist_en_name_firstUpper>, <t:artist_ja_name>				1	1		QriPretty				1		
+tara_hwayoung	화영	류	화영	류화영	Hwayoung	RYU	HWA	YOUNG	ファヨン			music	person	singer	tara	ccment	2009	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_name>				1	1		RHY422				1		
+boyfriend	보이프렌드			BOYFRIEND	BOYFRIEND							music	group	singer		starshipent	20110526	\bBOYFRIEND\b		starship AND boyfriend, youngmin AND boyfriend, kwangmin AND boyfriend, minwoo AND boyfriend, hyunseung AND boyfriend, jungmin AND boyfriend, donghyun AND boyfriend		1	1		G_BoyFriend	officialBF			1		
+bf_youngmin	영민				Youngmin		YOUNG	MIN	ヨンミン			music	person	singer	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+bf_kwangmin	광민				Kwangmin		KWANG	MIN	クァンミン			music	person	singer	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+bf_minwoo	민우			노민우	Minwoo		MIN	WOO	ミヌ			music, drama		singer, drama	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>	<t:artist_filter>										1		
+bf_hyunseung	현성				Hyunseung		HYUN	SEUNG	ヒョンソン			music	person	singer	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+bf_jungmin	정민			이정민	Jungmin		JUNG	MIN	ジョンミン			music	person	singer	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+bf_donghyun	동현				Donghyun		DONG	HYUN	ドンヒョン			music, drama		singer, drama	boyfriend	starshipent	20110526	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>											1		
+sistar	씨스타			Sistar	SISTAR							music	group	singer		starshipent	20100519	<t:artist_en_name_firstUpper>		sistar		1	1		sistarsistar			sistarsistar	1		
+sistar_soyou	소유			강지현	Soyou		SO	YOU				music	person	singer	sistar	starshipent	20100519	<t:artist_en_firstname_firstUpper>											1		
+sistar_bora	보라			윤보라	Bora		BO	RA				music	person	singer	sistar	starshipent	20100519	<t:artist_en_firstname_firstUpper>											1		
+sistar_dasom	다솜			김다솜	Dasom		DA	SOM				music	person	singer	sistar	starshipent	20100519	<t:artist_en_firstname_firstUpper>											1		
+sistar_hyorin	효린			김효정	Hyorin		HYO	RIN				music	person	singer	sistar	starshipent	20100519	<t:artist_en_firstname_firstUpper>											1		
+kwill	케이윌			김형수	K.will							music	person	singer		starshipent	2007	\bK\.[Ww][Ii][Ll][Ll]\b		starship AND kwill, starship AND k.will		1	1		thsm1			thsm1	1		
+ftisland	FT아일랜드			FTISLAND	FTISLAND							music	group	singer		fncent	2007	<t:artist_en_name_firstUpper>		ftisland	1			ftisland		FTISLAND			1		
+ftisland_jonghoon	최종훈	최	종훈		Jonghoon	CHOI	JONG	HOON	チェジョンフン	チェ	ジョンフン	music	person	singer	ftisland	fncent	2007	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>				1	1		FtGtJH				1		
+ftisland_honggi	이홍기	이	홍기		Honggi	LEE	HONG	GI	イホンギ	イ	ホンギ	music	person	singer	ftisland	fncent	2007	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>				1	1		skullhong				1		
+ftisland_jaejin	이재진	이	재진		Jaejin	LEE	JAE	JIN	イジェジン	イ	ジェジン	music	person	singer	ftisland	fncent	2007	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>				1	1		saico011				1		
+ftisland_minhwan	최민환	최	민환		Minhwan	CHOI	MIN	HWAN	チェミンファン	チェ	ミンファン	music	person	singer	ftisland	fncent	2007	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>											1		
+ftisland_seunghyun	송승현	송	승현		Seunghyun	SONG	SEUNG	HYUN	ソンスンヒョン	ソン	スンヒョン	music	person	singer	ftisland	fncent	2007	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>											1		
+cnblue	씨엔블루			CNBLUE	CNBLUE							music	group	singer		fncent	2010	<t:artist_en_name_firstUpper>		cnblue	1	1	1	cnblue	CNBLUE_4				1		
+cnblue_jungyonghwa	정용화	정	용화		Jung Yong Hwa	JUNG	YONG	HWA	ジョンヨンファ			music	person	singer	cnblue	fncent	2010	<t:artist_en_fullname>, <t:artist_ja_name>											1		
+cnblue_leejungshin	이정신	이	정신		Lee Jung Shin	LEE	SUNG	SHIN	イジョンシン			music	person	singer	cnblue	fncent	2010	<t:artist_en_fullname>, <t:artist_ja_name>											1		
+cnblue_leejonghyun	이종현	이	종현		Lee Jong Hyun	LEE	JONG	HYUN	イジョンヒョン			music	person	singer	cnblue	fncent	2010	<t:artist_en_fullname>, <t:artist_ja_name>											1		
+cnblue_kangminhyuk	강민혁	강	민혁		Kang Min Hyuk	KANG	MIN	HYUK	カンミンヒョク			music	person	singer	cnblue	fncent	2010	<t:artist_en_fullname>, <t:artist_ja_name>											1		
+beast	비스트				BEAST							music	group	singer		cubeent	2009	<t:artist_en_name_firstUpper>		cube AND beast,  dujun AND beast, hyunseung AND beast, junhyung AND beast, yoseop AND beast, gikwang AND beast, dongwoon AND beast									1		
+beast_yoondujun	윤두준	윤	두준		Yoon Du Jun	YOON	DU	JUN				music	person	singer	beast	cubeent	2009	<t:artist_en_fullname>				1	1		BeeeestDJ				1		
+beast_janghyunseung	장현승	장	현승		Jang Hyun Seung	JANG	HYUN	SEUNG				music	person	singer	beast, troublemaker	cubeent	2009	<t:artist_en_fullname>											1		
+beast_yongjunhyung	용준형	용	준형		Yong Jun Hyung	YONG	JUN	HYUNG				music	person	singer	beast	cubeent	2009	<t:artist_en_fullname>				1	1		Joker891219				1		
+beast_yangyoseop	양요섭	양	요섭		Yang Yo Seop	YANG	YO	SEOP				music	person	singer	beast	cubeent	2009	<t:artist_en_fullname>				1	1		itzmeys				1		
+beast_leegikwang	이기광	이	기광		Lee Gi Kwang	LEE	GI	KWANG				music	person	singer	beast	cubeent	2009	<t:artist_en_fullname>				1	1		b2stgk			beast-gk	1		
+beast_sondongwoon	손동운	손	동운		Son Dong Woon	SON	DONG	WOON				music	person	singer	beast	cubeent	2009	<t:artist_en_fullname>				1	1		beastdw				1		
+4minute	포미닛				4MINUTE							music	group	singer		cubeent	2009	\b4[Mm][Ii][Nn][Uu][Tt][Ee]\b		4minute	1			4minuteofficial					1		
+4m_kwonsohyun	권소현	권	소현		Kwon So-Hyun 	KWON	SO	HYUN				music	person	singer	4minute	cubeent	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		4M_kkwonsso				1		
+4m_heogayoon	허가윤	허	가윤		Heo Ga-Yoon	HEO	GA	YOON				music	person	singer	4minute	cubeent	2009	<t:artist_en_optional_fullname_firstUpper>											1		
+4m_kimhyuna	김현아	김	현아		Kim Hyun-A	KIM	HYUN	A				music	person	singer	4minute, troublemaker	cubeent	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		4M_hyunah				1		
+4m_namjihyun	남지현	남	지현		Nam Ji-Hyun	NAM	JI	HYUN				music	person	singer	4minute	cubeent	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		4m_namgg				1		
+4m_jeonjiyoon	전지윤	전	지윤		Jeon Ji-Yoon	JEON	JI	YOON				music	person	singer	4minute	cubeent	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		4M_jiyoonitt				1		
+troublemaker	트러블메이커				TROUBLE MAKER							music	group	singer		cubeent	2011	\bT[Rr][Oo][Uu][Bb][Ll][Ee][\s]*[Mm][Aa][Kk][Ee][Rr]\b		cube AND trouble maker									1		
+btob	비투비				BTOB							music	group	singer		cubeent	2012	\bB[Tt][Oo]B\b		cube AND btob	1			officialbtob		BTOBofficial			1		
+btob_seoeunkwang	서은광	서	은광		Seo Eun Kwang	SEO	EUN	KWANG				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+btob_leeminhyuk	이민혁	이	민혁		Lee Min Hyuk	LEE	MIN	HYUK				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+btob_leechangsub	이창섭	이	창섭		Lee Chang Sub	LEE	CHANG	SUB				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+btob_limhyunsik	임현식	임	현식		Lim Hyun Sik	LIM	HYUN	SIK				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+btob_peniel	프니엘				Peniel D. Shin							music	person	singer	btob	cubeent	2012	\bP[Ee][Nn][Ii][Ee][Ll][\s]*[Dd]*[\s\.]*(S[Hh][Ii][Nn])*\b											1		
+btob_jungilhoon	정일훈	정	일훈		Jung Il Hoon	JUNG	IL	HOON				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+btob_yooksungjae	육성재	육	성재		Yook Sung Jae	YOOK	SUNG	JAE				music	person	singer	btob	cubeent	2012	<t:artist_en_fullname>											1		
+gna	지나			최지나	G.NA							music	person	singer		cubeent	2010	\bG\.[Nn][Aa]\b		g.na	1	1	1	gnaofficial	ginachoi87				1		
+teentop	틴탑				TEEN TOP							music	group	singer		topmedia	2010	<t:artist_en_name_firstUpper>		teentop, teen top	1	1	1	TeenzOnTop	TEEN_TOP			teen-top	1		
+teentop_cap	캡			방민수	C.A.P							music	person	singer	teentop	topmedia	2010	\bC\.A\.P\b											1		
+teentop_niel	니엘			안다니엘	Niel							music	person	singer	teentop	topmedia	2010	<t:artist_en_name_firstUpper>											1		
+teentop_ricky	Ricky			유창현	Ricky							music	person	singer	teentop	topmedia	2010	<t:artist_en_name_firstUpper>											1		
+teentop_ljoe	엘조			이병헌	L.Joe							music	person	singer	teentop	topmedia	2010	\bL\.[Jj][Oo][Ee]\b											1		
+teentop_changjo	창조			최종현	Changjo		CHANG	JO				music	person	singer	teentop	topmedia	2010	<t:artist_en_firstname_firstUpper>											1		
+teentop_chunji	천지			이찬희	Chunji		CHUN	JI				music	person	singer	teentop	topmedia	2010	<t:artist_en_firstname_firstUpper>											1		
+ukiss	유키스				U-KISS							music	group	singer		nhmedia	2008	<t:artist_en_name_firstUpper>		ukiss, u-kiss	1	1	1	ukiss2008	ukisskorea	ukiss		ukisskorea	1		
+ukiss_soohyun	수현	신	수현	신수현	Soo Hyun	SHIN	SOO	HYUN				music	person	singer	ukiss	nhmedia	2008	<t:artist_en_optional_fullname_firstUpper>	(<p:affiliated_group> ,<p:affiliated_group_members>,<p:company>,<a:twitter_account>) 			1	1		ukissSH				1		
+ukiss_kiseop	기섭	이	기섭	이기섭	Ki Seop	LEE	KI	SEOP				music	person	singer	ukiss	nhmedia	2008	<t:artist_en_optional_fullname_firstUpper>				1	1		KiSSeop91				1		
+ukiss_eli	일라이				ELI							music	person	singer	ukiss	nhmedia	2008	<t:artist_en_name_allUpper>				1	1		u_kisseli				1		
+ukiss_aj	에이제이			김재섭	AJ							music	person	singer	ukiss	nhmedia	2008	<t:artist_en_name_allUpper>				1	1		JaeseopKim91AJ				1		
+ukiss_hoon	훈			여훈민	Hoon							music	person	singer	ukiss	nhmedia	2008	<t:artist_en_name_firstUpper>	<t:artist_filter>			1	1		HooN91y				1		
+ukiss_kevin	케빈			우성현	Kevin							music	person	singer	ukiss	nhmedia	2008	<t:artist_en_name_firstUpper>				1	1		Kevinwoo91				1		
+ukiss_dongho	동호	신	동호	신동호	Dong Ho	SHIN	DONG	HO				music	person	singer	ukiss	nhmedia	2008	<t:artist_en_optional_fullname_firstUpper>				1	1		dongho94			Justin_shin	1		
+shinwha	신화				SHINWHA							music	group	singer		shinhwacompany	1998	<t:artist_en_name_firstUpper>		shinhwa									1		
+shinwha_kimdongwan	김동완	김	동완		Kim Dong Wan	KIM	DONG	WAN				music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_fullname>											1		
+shinwha_leeminwoo	이민우	이	민우		Lee Min Woo	LEE	MIN	WOO				music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_fullname>											1		
+shinwha_eric	에릭			문정혁	Eric							music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_name_firstUpper>											1		
+shinwha_andy	앤디			이선호	Andy							music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_name_firstUpper>											1		
+shinwha_junjin	전진			박충재	Jun Jin		JUN	JIN				music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_firstname_firstUpper>											1		
+shinwha_shinhyesung	신혜성	신	혜성	정필교	Shin Hye Sung	SHIN	HYE	SUNG				music	person	singer	shinwha	shinhwacompany	1998	<t:artist_en_fullname>											1		
+apink	에이핑크				A pink							music	group	singer		acubeent	2011	\bA[\s-]*[Pp][Ii][Nn][Kk]\b		apink, a-pink									1		
+apink_parkchorong	박초롱	박	초롱		Park Cho rong	PARK	CHO	RONG				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>				1	1		apinkpcr				1		
+apink_yoonbomi	윤보미	윤	보미		Yoon Bo Mi	YOON	BO	MI				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>											1		
+apink_jungeunji	정은지	정	은지		Jung Eun Ji	JUNG	EUN	JI				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>				1	1		apinkjej				1		
+apink_sonnaeun	손나은	손	나은		Son Na Eun	SON	NA	EUN				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>				1	1		Apinksne				1		
+apink_hongyookyung	홍유경	홍	유경		Hong Yoo Kyung	HONG	YOO	KYUNG				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>											1		
+apink_kimnamju	김남주	김	남주		Kim Nam Ju	KIM	NAM	JU				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>											1		
+apink_ohhayeong	오하영	오	하영		Oh Ha Yeong	OH	HA	YEONG				music	person	singer	apink	acubeent	2011	<t:artist_en_fullname>				1	1		Apinkohy				1		
+b1a4	B1A4				B1A4							music	group	singer		wment	2011	<t:artist_en_name_allUpper>		b1a4	1			chB1A4					1		
+b1a4_jinyoung	진영			정진영	Jinyoung		JIN	YOUNG				music	person	singer	b1a4	wment	2011	<t:artist_en_firstname_firstUpper>											1		
+b1a4_baro	바로			차선우	BARO							music	person	singer	b1a4	wment	2011	<t:artist_en_name_allUpper>											1		
+b1a4_sandeul	산들			이정환	Sandeul		SAN	DEUL				music	person	singer	b1a4	wment	2011	<t:artist_en_firstname_firstUpper>											1		
+b1a4_cnu	신우			신동우	CNU							music	person	singer	b1a4	wment	2011	<t:artist_en_name_allUpper>											1		
+b1a4_gongchan	공찬			공찬식	Gongchan		GONG	CHAN				music	person	singer	b1a4	wment	2011	<t:artist_en_firstname_firstUpper>											1		
+mblaq	엠블랙				MBLAQ							music	group	singer		jtunecamp	2009	<t:artist_en_name_firstUpper>		mblaq								1015mblaqaplus	1		
+mblaq_yangseungho	승호			양승호	Seungho	YANG	SEUNG	HO				music	person	singer	mblaq	jtunecamp	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		MBLAQSH				1		
+mblaq_go	지오			정병희	 G.O							music	person	singer	mblaq	jtunecamp	2009	\bG\.O\b				1	1		MBLAQGO				1		
+mblaq_leejun	이준			이창선	Leejun	LEE	JOON					music	person	singer	mblaq	jtunecamp	2009	<t:artist_en_name_firstUpper>, <t:artist_en_fullname1_firstUpper>											1		
+mblaq_sanghyunpark	천둥			박상현	Cheondung							music	person	singer	mblaq	jtunecamp	2009	<t:artist_en_name_firstUpper>				1	1		mblaqcd				1		
+mblaq_mir	미르			방철용	Mir							music	person	singer	mblaq	jtunecamp	2009	<t:artist_en_name_firstUpper>				1	1		BangMir				1		
+bap	B.A.P				B.A.P							music	group	singer		tsent	2012	\bB\.A\.P\b		B.A.P						OFFICIALB.A.P		official-bap	1		
+bap_bangyongguk	방용국	방	용국		Bang Yong Guk 	BANG	YONG	GUK	バンヨングク	バン	ヨングク	music	person	singer	bap, bang_and_zelo	tsent	2012	<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>				1	1		BAP_Bangyongguk				1		
+bap_himchan	힘찬				Himchan		HIM	CHAN	ヒムチャン			music	person	singer	bap	tsent	2012	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		Himchanchan				1		
+bap_daehyun	대현				Daehyun		DAE	HYUN	デヒョン			music	person	singer	bap	tsent	2012	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		BAP_Daehyun				1		
+bap_youngjae	영재						YOUNG	JAE	ヨンジェ			music	person	singer	bap	tsent	2012	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		BAP_Youngjae				1		
+bap_jongup	종업						JONG	UP	ジョンオプ			music	person	singer	bap	tsent	2012	<t:artist_en_firstname_firstUpper>, <t:artist_ja_name>				1	1		BAP_Jongup				1		
+bap_zelo	젤로				Zelo				ゼロ			music	person	singer	bap, bang_and_zelo	tsent	2012	<t:artist_en_name_firstUpper>, <t:artist_ja_name>				1	1		ZELO96				1		
+bang_and_zelo	방용국&젤로				BANG&ZELO							music	group	singer		tsent	2011	<t:artist_en_name>		bang&zelo									1		
+afterschool	애프터스쿨				After School							music	group	singer		pledis	2009	<t:artist_en_name>		afterschool						pledisAS			1		
+afterschool_junga	정아			김정아	Jung-A		JUNG	A				music	person	singer	afterschool	pledis	2009	<t:artist_en_firstname_firstUpper>										83rlawjddk	1		
+afterschool_juyeon	주연			이주연	Juyeon		JU	YEON				music	person	singer	afterschool	pledis	2009	<t:artist_en_firstname_firstUpper>				1	1		ASJuPal			wndus319	1		
+afterschool_uie	유이			김유진	U-IE		U	IE				music	person	singer	afterschool	pledis	2009	<t:artist_en_firstname_firstUpper>				1	1		uuuei			uuuei	1		
+afterschool_raina	레이나			오혜린	Raina							music	person	singer	afterschool, orangecaramel	pledis	2009	<t:artist_en_name_firstUpper>				1	1		raina57			hyerin0507	1		
+afterschool_nana	나나			임진아	NANA							music	person	singer	afterschool, orangecaramel	pledis	2009	<t:artist_en_name_allUpper>										sanmiy7	1		
+afterschool_lizzy	리지			박수영	Lizzy							music	person	singer	afterschool, orangecaramel	pledis	2009	<t:artist_en_name_firstUpper>				1	1		p_Lizzy			zaromi	1		
+afterschool_eyoung	이영			노이영	E-Young		E	YOUNG				music	person	singer	afterschool	pledis	2009	<t:artist_en_firstname_firstUpper>											1		
+afterschool_gaeun	가은				Gaeun		GA	EUN				music	person	singer	afterschool	pledis	2012	<t:artist_en_firstname_firstUpper>											1		
+orangecaramel	오렌지캬라멜				Orange Caramel							music	group	singer		pledis	2010	<t:artist_en_name_firstUpper>		orange caramel									1		
+nuest	뉴이스트				NU'EST							music	group	singer		pledis	2012	\bNU'EST\b				1	1		nuestnews	pledisnuest			1		
+nuest_jr	JR			종현	JR							music	person	singer	nuest	pledis	2012	<t:artist_en_name_allUpper>											1		
+nuest_aron	아론				Aron							music	person	singer	nuest	pledis	2012	<t:artist_en_name_firstUpper>											1		
+nuest_baekho	백호			동호	Baekho		BAEK	HO				music	person	singer	nuest	pledis	2012	<t:artist_en_firstname_firstUpper>										_whitetiger	1		
+nuest_minhyun	민현				Minhyun		MIN	HYUN				music	person	singer	nuest	pledis	2012	<t:artist_en_firstname_firstUpper>											1		
+nuest_ren	렌			민기	REN							music	person	singer	nuest	pledis	2012	<t:artist_en_name_allUpper>											1		
+kara	카라				KARA							music	group	singer		dspmedia	2007	<t:artist_en_name_firstUpper>		kara	1			dspkara					1		
+kara_gyuri	박규리				Gyu Ri	PARK	GYU	RI				music	person	singer	kara	dspmedia	2007	<t:artist_en_optional_fullname_firstUpper>				1	1		gyuri88			karagyuri	1		
+kara_nicole	니콜			정용주	Nicole							music	person	singer	kara	dspmedia	2007	<t:artist_en_name_firstUpper>				1	1		_911007			_911007	1		
+kara_seungyeon	한승연				SeungYeon	HAN	SEUNG	YEON				music	person	singer	kara	dspmedia	2007	<t:artist_en_optional_fullname_firstUpper>				1	1		fateflysy				1		
+kara_hara	구하라				Hara	KOO	HA	RA				music	person	singer	kara	dspmedia	2007	<t:artist_en_optional_fullname_firstUpper>				1	1		_sweethara			sweethara	1		
+kara_jiyoung	강지영				Jiyoung	KANG	JI	YOUNG				music	person	singer	kara	dspmedia	2007	<t:artist_en_optional_fullname_firstUpper>				1	1		kkangjii			kkangjii09	1		
+rainbow	RainBow				RainBow							music	group	singer		dspmedia	2009	\bR[Aa][Ii][Nn]B[Oo][Ww]\b		dsp AND rainbow						Rainbow.DSP			1		
+rb_jaekyung	김재경				Kim Jae Kyung	KIM	JAE	KYUNG				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		JaeKyung_K			rb_jaekyung	1		
+rb_woori	고우리				Koh Woori	KOH	WOO	RI				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		nunino			rb_woori	1		
+rb_jisook	김지숙				Kim Ji Sook	KIM	JI	SOOK				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		Jisook718			rb_jisook	1		
+rb_noeul	노을				Noeul		NO	EUL				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_firstname_firstUpper>				1	1		No_Eul			rb_noeul	1		
+rb_seunga	오승아				Oh Seunga	OH	SEUNG	A				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		Seunga0913			rb_seunga	1		
+rb_yoonhye	정윤혜				Jeong Yoon Hye	JEONG	YOON	HYE				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		rb_yoonhye			rb_yoonhye	1		
+rb_hyunyoung	조현영				Cho Hyun Young	CHO	HYUN	YOUNG				music	person	singer	rainbow	dspmedia	2009	<t:artist_en_optional_fullname_firstUpper>				1	1		Hyunyoung_c			rb_hyunyoung	1		
+iu	아이유			이지은	IU							music	person	singer		loenent	2011	<t:artist_en_name_allUpper>		loen AND iu	1	1	1	loenIU	lily199iu	iu.loen		i_u0516	1		
+sunnyhill	써니힐				SunnyHill							music	group	singer		loenent	2007	\bS[Uu][Nn][Nn][Yy]H[Ii][Ll][Ll]\b		loen AND sunnyhill	1			loenSUNNYHILL		sunnyhill.loen			1		
+sunnyhill_janghyun	장현			김장현	Jang Hyun	KIM	JANG	HYUN				music	person	singer	sunnyhill	loenent	2007	<t:artist_en_optional_fullname_firstUpper>				1	1		quix30				1		
+sunnyhill_juby	주비			김은영	Juby							music	person	singer	sunnyhill	loenent	2007	<t:artist_en_name_firstUpper>				1	1		juB_Hill				1		
+sunnyhill_seunga	승아			이승아	Seung A		SEUNG	A				music	person	singer	sunnyhill	loenent	2007	<t:artist_en_firstname_firstUpper>				1	1		seungA_hill				1		
+sunnyhill_kota	코타			안진아	Kota							music	person	singer	sunnyhill	loenent	2007	<t:artist_en_name_firstUpper>				1	1		kota_hill				1		
+sunnyhill_misung	미성			이미성	Mi Sung		MI	SUNG				music	person	singer	sunnyhill	loenent	2007	<t:artist_en_firstname_firstUpper>				1	1		Misung_Hill				1		
+zia	지아			박지혜	ZIA							music	person	singer		loenent	2007	<t:artist_en_name_allUpper>			1	1	1	loenZIA	ZIA_voice				1		
+jangkeunsuk	장근석				Jang Keun Suk	JANG	KEUN	SUK	チャングンソク	チャン	グンソク	drama, music	person	singer, actor		treejcompany		<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>		jang keun suk	1	1	1	princeJKS	AsiaPrince_JKS				1		
+kimhyunjoong	김현중				Kim Hyun Joong	KIM	HYUN	JOONG	キムヒョンジュン	キム	ヒョンジュン	music, drama	person	singer, actor		keyeast		<t:artist_en_optional_fullname_firstUpper>, <t:artist_ja_optional_fullname>		kim hyun joong									1		

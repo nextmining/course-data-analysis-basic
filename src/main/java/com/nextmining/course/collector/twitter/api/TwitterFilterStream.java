@@ -41,8 +41,8 @@ public final class TwitterFilterStream {
 					try {
 						Date date = new Date();
 						String subDir = DateUtil.convertDateToString("yyyyMMdd", date);
-						String surfix = DateUtil.convertDateToString("yyyyMMddHH00", date);
-						String filename = strDir + File.separator + subDir + File.separator + "twitter_" + surfix;
+						String suffix = DateUtil.convertDateToString("yyyyMMddHH00", date);
+						String filename = strDir + File.separator + subDir + File.separator + "twitter_" + suffix;
 						FileUtil.mkdirsFromFullpath(filename);
 						
 						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
@@ -56,7 +56,7 @@ public final class TwitterFilterStream {
 					}
 				}
 	
-				@Override
+		@Override
         public void onDeletionNotice(StatusDeletionNotice statusDeletionNotice) {
             System.out.println("Got a status deletion notice id:" + statusDeletionNotice.getStatusId());
         }
