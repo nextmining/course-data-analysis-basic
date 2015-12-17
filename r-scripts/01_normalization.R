@@ -2,6 +2,8 @@
 # Normalization
 #################################
 
+setwd("~/Documents/projects/course-data-analysis-basic/r-scripts")
+
 ### Calculate z-score normalization.
 zscore <- function(x) {
   mu = mean(x, na.rm = TRUE)

@@ -232,6 +232,46 @@ ggplot(aes(x = www_likes_received, y = likes_received), data = pf) +
   ylim(0, quantile(pf$likes_received, 0.95)) +
   geom_smooth(method = 'lm', color = 'red')
 
+cor.test(pf$www_likes_received, pf$likes_received)
+
+## More Caution with Correlation
+
+install.packages('alr3')
+library(alr3)
+data(Mitchell)
+?Mitchell
+# Create a Scatterplot of Temperature vs. Months
+ggplot(data = Mitchell, aes(x = Month, y = Temp)) +
+  geom_point()
+
+# OR
+qplot(data = Mitchell, Month, Temp)
+
+## Noisy Scatterplots
+cor.test(Mitchell$Month, Mitchell$Temp)
+# Q1) Take a guess of the correlation
+# Ans) 0      -.2     to    .2
+# Q2) What is the actual correlation of the two variables? (Round to the thousandths place)
+# Ans) 0.057
+
+## Making Sense of Data
+range(Mitchell$Month)
+ggplot(data = Mitchell, aes(x = Month, y = Temp)) +
+  geom_point() +
+  scale_x_discrete(breaks = seq(0, 203, 12))
+# 그래프 세로 size를 줄여보면 계절에 따라서 기온이 오르고 내리고 하는 싸이클을 볼 수 있다.
+
+
+#####################################################
+# Explore Many Variables: Multivariate Data
+#####################################################
+
+
+
+
+
+
+ 
 
 
 
