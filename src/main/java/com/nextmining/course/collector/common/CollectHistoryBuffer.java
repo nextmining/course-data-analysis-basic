@@ -1,4 +1,4 @@
-package com.nextmining.course.common;
+package com.nextmining.course.collector.common;
 
 
 import com.nextmining.common.util.FileUtil;
