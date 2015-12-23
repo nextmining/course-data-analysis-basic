@@ -41,7 +41,7 @@ task collectTwitterData(type: JavaExec, dependsOn: classes) {
 
 collectTwitterData.doFirst {
     if (!project.hasProperty("args")) {
-        //println("Usage: gradle collectTwitterData -Pargs=arguments")
-        //System.exit(-1)
+        println("Usage: gradle collectTwitterData -Pargs=arguments")
+        System.exit(-1)
     }
 }
