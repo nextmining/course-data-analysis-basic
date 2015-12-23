@@ -28,3 +28,20 @@ dependencies {
     compile("org.twitter4j:twitter4j-stream:4.0.2")
     compile("commons-lang:commons-lang:2.6")
 }
+
+task collectTwitterData(type: JavaExec, dependsOn: classes) {
+    main = 'com.nextmining.course.collector.twitter.TwitterFilterStreamCollector'
+    if (project.hasProperty("args")) {
+        args = project.args.split(" ").toList()
+        println("args: " + project.args)
+    }
+    classpath sourceSets.main.runtimeClasspath
+    classpath configurations.runtime
+}
+
+collectTwitterData.doFirst {
+    if (!project.hasProperty("args")) {
+        //println("Usage: gradle collectTwitterData -Pargs=arguments")
+        //System.exit(-1)
+    }
+}
